@@ -33,7 +33,7 @@ class _MainPageState extends State<MainPage> {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return new MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: Container(
@@ -52,7 +52,7 @@ class _MainPageState extends State<MainPage> {
                     behavior: MyBehavior(),
                     child: Container(
                       margin: const EdgeInsets.only(
-                          top: 20.0, left: 20.0, right: 20.0),
+                          top: 10.0, left: 20.0, right: 20.0),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.center,
                         mainAxisSize: MainAxisSize.max,
